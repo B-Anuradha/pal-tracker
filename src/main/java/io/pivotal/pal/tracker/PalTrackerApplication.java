@@ -16,12 +16,10 @@ public class PalTrackerApplication {
     public static void main(String[] args) {
         SpringApplication.run(PalTrackerApplication.class, args);
     }
-<<<<<<< HEAD
-=======
+
 
     @Bean
     TimeEntryRepository timeEntryRepository(DataSource dataSource) {
         return new JdbcTimeEntryRepository(dataSource);
     }
->>>>>>> 38decca... Persist time entries in database
 }
