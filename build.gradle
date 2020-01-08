@@ -23,10 +23,7 @@ test {
 }
 
 def developmentDbUrl = "jdbc:mysql://localhost:3306/tracker_dev?user=tracker&useSSL=false&useTimezone=true&serverTimezone=UTC&useLegacyDatetimeCode=false"
-<<<<<<< HEAD
 
-=======
->>>>>>> 38decca... Persist time entries in database
 bootRun.environment([
         "WELCOME_MESSAGE": "howdy",
         "SPRING_DATASOURCE_URL": developmentDbUrl,
